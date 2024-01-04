@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "PlayFair Display";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#back {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#left {
+  width: 70%;
+  height: 100%;
+  /* background-color:#dadada; */
+  padding: 30px 40px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+nav a:nth-child(2) {
+  opacity: 1;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  padding-bottom: 1px;
+}
+
+#circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: #dadada;
+  background-image: url(https://imgs.search.brave.com/U8DhmpusOWabtml29pwyNVDAY6lEohc2_xgJl_oJsoo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9yZW5k/ZXIuZmluZWFydGFt/ZXJpY2EuY29tL2lt/YWdlcy9yZW5kZXJl/ZC9zZWFyY2gvcHJp/bnQvOC84L2JyZWFr/L2ltYWdlcy9hcnR3/b3JraW1hZ2VzL21l/ZGl1bS8xLzItdHJv/cGljYWwtbWFyay1h/c2hrZW5hemkuanBn);
+}
+
+#smcircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  background-image: url(https://img.freepik.com/premium-vector/flamingo-with-white-without-background_861149-37.jpg);
+  background-size: cover;
+}
+
+#vsmcircle {
+  position: absolute;
+  top: 50%;
+  right: -3%;
+  transform: translate(0, -50%);
+  width: 80px;
+  height: 80px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background-color: black;
+  background-image: url(https://images.unsplash.com/photo-1548645933-5cfe71429909?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8&w=1000&q=80);
+  background-size: cover;
+}
+
+#vsmcircle i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 50%;
+}
+
+#cart {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+#right {
+  width: 30%;
+  height: 100%;
+  padding: 30px 40px;
+  color: white;
+  background-color: #222;
+}
+
+#right input {
+  width: 100%;
+  padding: 12px 32px;
+  border-radius: 100px;
+  background-color: #333;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: "Product Sans";
+}
+
+#right h4 {
+  opacity: 0.7;
+  font-weight: light;
+  margin-top: 40px;
+}
+
+#prtimage {
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  background-color: #777;
+  background-position: center;
+  background-image: url(https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/11/04/Pictures/_f6c2c69c-1eb4-11eb-99e1-1f704b24b706.jpg);
+  background-size: cover;
+  border-radius: 3px;
+}
+
+#play h3 {
+  margin-top: 30px;
+  opacity: 0.8;
+}
+
+.elem {
+  display: flex;
+  width: 100%;
+}
+
+.elem h3 {
+  font-family: "Product Sans";
+  margin-right: 90px;
+}
+
+.des h3 {
+  font-size: medium;
+}
+
+.des p {
+  font-family: "Product Sans";
+  opacity: 0.5;
+  font-weight: 100;
+  font-size: small;
+}
